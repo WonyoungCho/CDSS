@@ -115,13 +115,13 @@ def right():
 
     cols = st.columns([1,2])
     with cols[0]:
-        st.info('Acohol / week')
+        st.info('Acohol intake per week')
     with cols[1]:
         alcohol = st.radio('Acohol consumption per week', ('0','1','2-3','4-5','6-7'), horizontal=True, label_visibility='collapsed')
 
     cols = st.columns([1,2])
     with cols[0]:
-        st.success('Eating meat / week')
+        st.success('Eating meat per week')
     with cols[1]:
         eatMeat = st.radio('Eating meat per week', ('0','1','2-3','4-5','6-7'), horizontal=True, label_visibility='collapsed')
 
