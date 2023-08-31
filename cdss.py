@@ -33,11 +33,10 @@ position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
-background-color: white;
-color: black;
+background-color: transparent;
+color: white;
 text-align: center;
 }
-</style>
 
 <div class='footer'>
 <p> Copyright @ 2023 by Wonyoung Cho, Contact <a href="mailto:wycho@oncosoft.io"> wycho@oncosoft.io </a></p>
