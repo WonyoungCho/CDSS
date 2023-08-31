@@ -37,6 +37,7 @@ background-color: transparent;
 color: white;
 text-align: center;
 }
+</style>
 
 <div class='footer'>
 <p> Copyright @ 2023 by Wonyoung Cho, Contact <a href="mailto:wycho@oncosoft.io"> wycho@oncosoft.io </a></p>
