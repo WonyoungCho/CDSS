@@ -107,8 +107,6 @@ def right():
     with cols[0]:
         st.info('Household income')
     with cols[1]:
-        income   = st.radio('Household income',('1Q (Lowest)','2Q','3Q','4Q (Highest)'), horizontal=True, label_visibility='collapsed')
-    incomeDict = {'1Q (Lowest)':1,'2Q':2,'3Q':3,'4Q (Highest)':4}
 
     cols = st.columns([1,2])
     with cols[0]:
