@@ -107,7 +107,7 @@ def right():
     with cols[0]:
         st.info('Household income')
     with cols[1]:
-
+        income   = st.radio('Household income',('Low','Low-Medium','Medium','Medium-High','High'), horizontal=True, label_visibility='collapsed')
     cols = st.columns([1,2])
     with cols[0]:
         st.success('Smoking status')
