@@ -83,7 +83,6 @@ def right():
         st.write('Weight (kg)')
     with cols[2]:
         st.write('Height (cm)')
-
         
     cols = st.columns(3)
     with cols[1]:
@@ -167,7 +166,7 @@ def main():
     with st.sidebar:
         st.markdown("<h1 style='text-align: center; color: red;'>CDSS</h1>", unsafe_allow_html=True)
         st.markdown("<h1 style='text-align: center; color: red;'>(Clinical Decision Support System)</h1>", unsafe_allow_html=True)
-        st.markdown(f'# Probability of adverse event after treatments')
+        st.markdown(f'# Adverse event probability after treatments')
         st.markdown(f'# - Dermatitis: {result1*100:.2f} %')
         st.markdown(f'# - Metastasis: {result2*100:.2f} %')
 
