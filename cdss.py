@@ -165,7 +165,7 @@ def main():
     result2 = 0.3476
     with st.sidebar:
         st.markdown("<h1 style='text-align: center; color: red;'>CDSS</h1>", unsafe_allow_html=True)
-        st.markdown("<h1 style='text-align: center; color: red;'>(Clinical Decision Support System)</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: red;'>(Clinical Disease Simulation System)</h1>", unsafe_allow_html=True)
         st.markdown(f'# Adverse event probability after treatments')
         st.markdown(f'# - Dermatitis: {result1*100:.2f} %')
         st.markdown(f'# - Metastasis: {result2*100:.2f} %')
