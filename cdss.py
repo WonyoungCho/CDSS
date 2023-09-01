@@ -55,7 +55,7 @@ text-align: center;
 </div>
 """
 
-st.markdown(footerText, unsafe_allow_html=True)
+#st.markdown(footerText, unsafe_allow_html=True)
 
 def set_bmi(bmi):
     x = 4
