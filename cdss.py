@@ -67,16 +67,16 @@ def set_bmi(bmi):
     return x
 
 def right():
-    cols = st.columns([1,2])
-    with cols[0]:
-        st.info('Age')
-    with cols[1]:
-        age = st.radio('Age', ['10s','20s','30s','40s','50s','60s','70s','80s','90s'], horizontal=True, label_visibility='collapsed')
-    cols = st.columns([1,2])
-    with cols[0]:
-        st.success('Sex')
-    with cols[1]:
-        sex = st.radio('Sex', ['Male', 'Female'], horizontal=True, label_visibility='collapsed')
+    #cols = st.columns([1,2])
+    #with cols[0]:
+    #    st.info('Age')
+    #with cols[1]:
+    #    age = st.radio('Age', ['10s','20s','30s','40s','50s','60s','70s','80s','90s'], horizontal=True, label_visibility='collapsed')
+    #cols = st.columns([1,2])
+    #with cols[0]:
+    #    st.success('Sex')
+    #with cols[1]:
+    #    sex = st.radio('Sex', ['Male', 'Female'], horizontal=True, label_visibility='collapsed')
 
     cols = st.columns(3)
     with cols[1]:
