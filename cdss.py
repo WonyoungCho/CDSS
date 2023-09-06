@@ -95,18 +95,19 @@ def right():
         bmiDict = {1:'Underweight',2:'Normal',3:'Overweight',4:'Obesity'}
         st.info('BMI'+os.linesep+f'({bmiDict[bmiGroup]})')
 
-    cols = st.columns([1,2])
-    with cols[0]:
-        st.success('Region of regidence')
-    with cols[1]:
-        region  = st.radio('Region of regidence', ('Urban','Rural'), horizontal=True, label_visibility='collapsed')
-    regionDict = {'Urban':1,'Rural':2}
+    #cols = st.columns([1,2])
+    #with cols[0]:
+    #    st.success('Region of regidence')
+    #with cols[1]:
+    #    region  = st.radio('Region of regidence', ('Urban','Rural'), horizontal=True, label_visibility='collapsed')
+    #regionDict = {'Urban':1,'Rural':2}
 
-    cols = st.columns([1,2])
-    with cols[0]:
-        st.info('Household income')
-    with cols[1]:
-        income   = st.radio('Household income',('Low','Low-Medium','Medium','Medium-High','High'), horizontal=True, label_visibility='collapsed')
+    #cols = st.columns([1,2])
+    #with cols[0]:
+    #    st.info('Household income')
+    #with cols[1]:
+    #    income   = st.radio('Household income',('Low','Low-Medium','Medium','Medium-High','High'), horizontal=True, label_visibility='collapsed')
+    
     cols = st.columns([1,2])
     with cols[0]:
         st.success('Smoking status within a year')
